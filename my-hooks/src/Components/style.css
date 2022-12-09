@@ -1,9 +1,12 @@
+body{
+    background-image: linear-gradient(to right, #7bcfeed3, #390505d2);
+}
 div{
     text-align: center;
     margin: 50px;
     font-size: 44px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgba(58, 234, 27, 0.613);
+    background-color: rgba(72, 27, 234, 0.613);
     padding: 10px;
 }
 span{
