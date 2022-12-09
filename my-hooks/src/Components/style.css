@@ -13,8 +13,9 @@ span{
     margin: 30px;
 }
 button{
-    padding: 0px;
-    width: 100px;
+    padding: 5px;
+    margin: 10px;
+    width: auto;
     height: 100px;
     font-size: 44px;
     background-color: rgba(234, 27, 27, 0.741);
