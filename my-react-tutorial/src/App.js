@@ -1,9 +1,9 @@
-import React-Events from './Components/React-Events'
-import './App.css';
+import './Components/style.css';
+import ReactEvents from './Components/ReactEvents';
 
 function App() {
   return (
-    <React-Events />
+    <ReactEvents />
   );
 }
 
