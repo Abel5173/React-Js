@@ -1,5 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-image: linear-gradient(to right, #7bcfeed3, #390505d2);
+    background-image: linear-gradient(to right, #08b7f7d3, #028220d2);
 }
 div{
     text-align: center;
