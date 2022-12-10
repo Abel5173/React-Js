@@ -1,11 +1,11 @@
 import React from "react";
 
 export default function FootBall(){
-    const shoot = () => {
-        alert('Great shot!')
+    const shoot = (a, b) =>{
+        alert(b.type);
     }
 
     return(
-        <button onClick={shoot}>Take the shot!</button>
-    )
+        <button onClick={(event)=>shoot('Goal', event)}>Take the shot!</button>
+    );
 }
