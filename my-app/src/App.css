@@ -1,0 +1,22 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background: linear-gradient(to right, #034a5a, #da49af);
+}
+input{
+    margin: 2rem;
+    background-color: #e8f3e8;
+    color: rgb(19, 42, 53);
+    font-weight: 800;
+    font-size: 24px;
+}
+h4{
+    margin: 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #e8f3e8;
+}
