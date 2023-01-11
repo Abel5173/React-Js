@@ -1,12 +1,9 @@
 import './App.css';
-import ButtonMUI from './components/ButtonMUI';
-import ButtonAppBar from './components/NavBar';
+import MuiLearning from './components/UnderstandingBreakpoints';
+
 function App() {
   return (
-      <div>
-        <ButtonAppBar />
-        {/* <ButtonMUI/> */}
-      </div>
+        <MuiLearning />
     );
 }
 

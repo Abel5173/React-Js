@@ -1,13 +1,22 @@
 import React from "react";
-import { Button } from "@mui/material";
+import { Box, Paper } from "@mui/material";
 
 export default function ButtonMUI(){
-    return(
-        <div>
-            <Button variant="contained">hello world</Button>
-            <Button variant="text">text Button</Button>
-            <Button variant="outlined">outlined</Button>
-            
-        </div>
+    return (
+        <Box
+          sx={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            '& > :not(style)': {
+              m: 1,
+              width: 128,
+              height: 128,
+            },
+          }}
+        >
+          <Paper elevation={0} />
+          <Paper />
+          <Paper elevation={3} />
+        </Box>
     )
-}
+  }
